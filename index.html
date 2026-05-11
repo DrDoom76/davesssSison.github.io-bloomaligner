@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloomAligner PH | Premium Clear Aligner Philippines</title>
+    <style>
+        :root {
+            --bloom-blue: #0076be;
+            --bloom-dark: #004a7c;
+            --bloom-grey: #58595b;
+            --light-bg: #f4f7f6;
+            --powder-blue: #B0E0E6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--bloom-grey);
+            background-color: white; /* Changed to white for a cleaner look */
+        }
+
+        /* Click-to-Call Bar */
+        .contact-bar {
+            background-color: var(--bloom-blue);
+            text-align: center;
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .phone-link {
+            color: white;
+            text-decoration: none;
+            font-size: 0.95em;
+            font-weight: bold;
+            letter-spacing: 1px;
+            display: block;
+            width: 100%;
+        }
+
+        header {
+            background: white;
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--bloom-blue);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 1px;
+            color: var(--bloom-grey);
+        }
+
+        .hero {
+            /* Professional gradient from brand blue to powder blue */
+            background: linear-gradient(135deg, var(--bloom-blue) 0%, var(--powder-blue) 100%);
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        h2 {
+            color: var(--bloom-blue);
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+            font-size: 1.8rem;
+        }
+
+        /* Clinical Results Gallery */
+        .results-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+        }
+
+        .result-item {
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .result-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .result-item img {
+            width: 100%;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .cta-section {
+            background: var(--bloom-blue);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .btn {
+            background: white;
+            color: var(--bloom-blue);
+            padding: 18px 40px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: 0.3s;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .btn:hover {
+            background: var(--powder-blue);
+            color: var(--bloom-dark);
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            background: #fafafa;
+            color: var(--bloom-grey);
+        }
+
+        .footer-contact {
+            color: var(--bloom-blue);
+            font-weight: bold;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            display: block;
+            text-decoration: none;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            .results-gallery {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .contact-bar {
+                background-color: var(--bloom-dark); /* More contrast on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-bar">
+        <a href="tel:09673804773" class="phone-link">
+            📞 CLICK TO CALL: 0967 380 4773
+        </a>
+    </div>
+
+    <header>
+        <h1>BloomAligner <span style="color:var(--bloom-blue)">PH</span></h1>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>European Technology.<br>Filipino Smiles.</h1>
+            <p>Advanced Clear Aligner Solutions</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2>Clinical Transformations</h2>
+        
+        <div class="results-gallery">
+            <div class="result-item"><img src="bloom case 11.jpeg" alt="Case 11"></div>
+            <div class="result-item"><img src="bloom case 10.jpeg" alt="Case 10"></div>
+            <div class="result-item"><img src="bloom case 9.jpeg" alt="Case 9"></div>
+            <div class="result-item"><img src="bloom case 8.jpeg" alt="Case 8"></div>
+            <div class="result-item"><img src="bloom csae 7.jpeg" alt="Case 7"></div>
+            <div class="result-item"><img src="bloom case 6.jpeg" alt="Case 6"></div>
+        </div>
+    </div>
+
+    <section class="cta-section">
+        <h2>Ready for your smile transformation?</h2>
+        <p>Explore the global standards of our French-engineered aligners.</p><br><br>
+        <a href="https://bloomaligner.fr" class="btn" target="_blank">Visit BloomAligner France</a>
+    </section>
+
+    <footer>
+        <a href="tel:09673804773" class="footer-contact">Call or Message: 0967 380 4773</a>
+        <p>&copy; 2026 BloomAligner Philippines | Clinician-Led Treatment Planning</p>
+    </footer>
+
+</body>
+</html>
