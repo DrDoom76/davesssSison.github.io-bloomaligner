@@ -125,7 +125,36 @@
             background: var(--bloom-blue);
             color: white;
             text-align: center;
-            padding: 80px 20px;
+            padding: 60px 20px 70px;
+        }
+
+        .cta-section h2 {
+            color: white;
+        }
+
+        .cta-section > p {
+            font-size: 1.05rem;
+            opacity: 0.95;
+            max-width: 600px;
+            margin: 0 auto 35px;
+        }
+
+        /* Embedded form card */
+        .form-card {
+            background: white;
+            border-radius: 14px;
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 10px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+            overflow: hidden;
+        }
+
+        .form-card iframe {
+            width: 100%;
+            border: none;
+            display: block;
+            min-height: 750px;
         }
 
         .btn {
@@ -171,6 +200,13 @@
             }
             .contact-bar {
                 background-color: var(--bloom-dark); /* More contrast on mobile */
+            }
+            .form-card {
+                border-radius: 10px;
+                padding: 6px;
+            }
+            .form-card iframe {
+                min-height: 900px;
             }
         }
     </style>
@@ -247,16 +283,35 @@
         </div>
     </div>
 
-    <section class="cta-section">
-        <h2>Ready for your smile transformation?</h2>
-        <p>Explore the global standards of our French-engineered aligners.</p><br><br>
-        <a href="https://bloomaligner.fr" class="btn" target="_blank">Visit bloomaligner France</a>
+    <section class="cta-section" id="apply">
+        <h2>Become a Partner Clinic</h2>
+        <p>Fill out your clinic details below and our team will reach out to get you onboarded with BloomAligner.</p>
+
+        <div class="form-card">
+            <iframe
+                id="JotFormIFrame-261748560543058"
+                title="Clinic Contact Details"
+                onload="window.parent.scrollTo(0,0)"
+                allowtransparency="true"
+                allow="geolocation; microphone; camera; fullscreen"
+                src="https://form.jotform.com/261748560543058"
+                frameborder="0"
+                scrolling="no"
+            ></iframe>
+        </div>
     </section>
 
     <footer>
         <a href="tel:09673804773" class="footer-contact">Call or Message: 0967 380 4773</a>
         <p>&copy; 2026 bloomaligner Philippines | Orthodontist-Led Treatment Planning</p>
     </footer>
+
+    <script type="text/javascript" src="https://www.jotform.com/s/umd/latest/for-form-embed-handler.js"></script>
+    <script>
+        if (window.jotformEmbedHandler) {
+            window.jotformEmbedHandler("iframe[id='JotFormIFrame-261748560543058']", "https://form.jotform.com/");
+        }
+    </script>
 
 </body>
 </html>
